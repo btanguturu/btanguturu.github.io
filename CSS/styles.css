@@ -34,7 +34,8 @@ nav li a{
 /* Homepage */
 
 .home{
-  background: teal;
+  background: url('/assets/images/SPace\ by\ me\ ver2!!.png');
+  background-size: cover; 
 }
 
 /* About */
