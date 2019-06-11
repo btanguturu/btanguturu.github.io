@@ -1,88 +1,145 @@
 /* My Awesome Styles */
 
+
 /* Diagnostic Styling 
   * Change Background Color
   * Outline Elements
 */
 
+
 /* * {
     outline: 1px dotted black;
 } */
 
+
 /* Global. Site. Base. Universal. */
 
 h1 {
-  font-size: 5em;
-  text-align: center;
-  text-transform: uppercase;
-  color: #A297CF;
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #A297CF;
 }
 
-
-nav li{
-  list-style: none;
-  display: inline-block;
-  padding: 10px;
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
 }
 
-nav li a{
-  text-decoration: none;
+nav li a {
+    text-decoration: none;
+    color: #fff;
 }
 
-body{
-  background: #000;
-  color: #fff;
+body {
+    background: #000;
+    color: #fff;
 }
+
 
 /* Homepage */
 
-.home{
-  background: url('/assets/images/SPace\ by\ me\ ver2!!.png')no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.home {
+    background: url('/assets/images/SPace\ by\ me\ ver2!!.png')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.title{
-  color: #A297CF;
-  display: flex;
-  flex-direction: column;
-  width: 50%;
+.title {
+    color: #A297CF;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
-.home nav{
-  background: #000;
+.home nav {
+    background: #000;
 }
+
 
 /* About */
-.about img{
-  width: 30%;
+
+.about img {
+    width: 30%;
 }
 
 
 /* Contact */
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Lato, Arial;
+}
+
+form {
+    margin: 5% auto;
+    width: 50%;
+}
+
+label {
+    cursor: pointer;
+}
+
+input,
+textarea {
+    padding: 2%;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    display: block;
+    margin-bottom: 5%;
+    margin-top: 1%;
+    font-size: 100%;
+}
+
+textarea {
+    resize: vertical;
+    width: 100%;
+    min-height: 20%;
+}
+
+input[type="submit"] {
+    margin-top: 2%;
+    background-color: #fff;
+    padding: 2% 20%;
+}
+
+input[type="submit"]:hover {
+    background-color: #666;
+    border: 1px solid #666;
+    color: #fff;
+    cursor: pointer;
+}
+
+input:focus,
+textarea:focus {
+    outline: 0;
+}
+
 
 /* Portfolio */
 
-.portfolio h1{
-  color: #A297CF;
+.portfolio h1 {
+    color: #A297CF;
 }
 
-.portfolio img{
-  width: 100%;
+.portfolio img {
+    width: 100%;
 }
 
-article{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-figure{
-  width: 200px;
-  padding: 1em;
-  background: #A297CF;
-  color: #000;
+figure {
+    width: 200px;
+    padding: 1em;
+    background: #A297CF;
+    color: #000;
 }
