@@ -49,29 +49,28 @@ body{
 
 /* About */
 
-.about{
-  background: turquoise;
-}
 
 /* Contact */
 
-.contact{
-  background: thistle;
-}
 
 /* Portfolio */
 
-.portfolio{
-  background: tomato;
+.portfolio h1{
+  color: #A297CF;
 }
 
 .portfolio img{
   width: 100%;
 }
 
+article{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 figure{
   width: 200px;
   padding: 1em;
-  background: red;
-  display: inline-block;
+  background: #A297CF;
 }
