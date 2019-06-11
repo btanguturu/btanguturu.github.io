@@ -37,9 +37,10 @@ body{
 /* Homepage */
 
 .home{
-  background: url('/assets/images/SPace\ by\ me\ ver2!!.png');
-  background-repeat: no-repeat;
-  background-position: left center; 
+  background: url('/assets/images/SPace\ by\ me\ ver2!!.png')no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
