@@ -59,6 +59,13 @@ body {
     background: #000;
 }
 
+.home img {
+    position: relative;
+    width: 80%;
+    bottom: -1%;
+    right: 5%;
+}
+
 
 /* About */
 
@@ -78,7 +85,7 @@ body {
 
 form {
     margin: 5% auto;
-    width: 50%;
+    width: 25%;
 }
 
 label {
