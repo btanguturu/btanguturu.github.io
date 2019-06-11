@@ -41,8 +41,6 @@ nav li a{
   display: flex;
   flex-direction: column;
   width: 50%;
-  justify-content: flex-end;
-  align-content: flex-end;
 }
 
 /* About */
