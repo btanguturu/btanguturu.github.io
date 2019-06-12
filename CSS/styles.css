@@ -52,27 +52,35 @@ body {
     background: #000;
 }
 
-.home main {
-    color: #A297CF;
-    width: 100vh;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-}
-
 .title {
-    display: flex;
-    flex-direction: column;
-    padding: 1%;
+    position: absolute;
+    width: 45vw;
+    text-align: left;
     bottom: 0px;
-    width: 40vh;
 }
 
-.home main img {
+.title h1 {
+    margin-left: -6%;
+}
+
+.title h2 {
+    margin-left: 2%;
+}
+
+.home img {
     position: absolute;
     height: 100vh;
     right: 0px;
     bottom: 0px;
+}
+
+@media all and (max-width: 980px) {
+    .home img {
+        display: none;
+    }
+    .title {
+        text-align: center;
+    }
 }
 
 
