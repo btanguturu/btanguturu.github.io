@@ -15,7 +15,7 @@
 /* Global. Site. Base. Universal. */
 
 h1 {
-    font-size: 5em;
+    font-size: 3em;
     text-align: center;
     text-transform: uppercase;
     color: #A297CF;
@@ -52,21 +52,23 @@ body {
     background: #000;
 }
 
-main {
+.home main {
     color: #A297CF;
     width: 100vh;
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .title {
     display: flex;
     flex-direction: column;
-    left: 0px;
+    padding: 1%;
+    bottom: 0px;
+    width: 40vh;
 }
 
-main img {
+.home main img {
     position: absolute;
     height: 100vh;
     right: 0px;
@@ -76,23 +78,38 @@ main img {
 
 /* About */
 
-.about img {
-    width: 30%;
+.about {
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.about main img {
+    width: 28%;
+    height: 28%;
+    padding: 2%;
+}
+
+.about main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about section {
+    width: 60%;
+    margin: auto auto;
 }
 
 
 /* Contact */
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Lato, Arial;
-}
-
 form {
     margin: 5% auto;
-    width: 25%;
+    max-width: 40%;
+}
+
+form .row {
+    display: flex;
+    justify-content: space-between;
 }
 
 label {
@@ -136,6 +153,10 @@ textarea:focus {
 
 
 /* Portfolio */
+
+.gallery {
+    width: 95vw;
+}
 
 .portfolio h1 {
     color: #A297CF;
