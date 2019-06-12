@@ -117,11 +117,6 @@ form {
     max-width: 40%;
 }
 
-form .row {
-    display: flex;
-    justify-content: space-between;
-}
-
 label {
     cursor: pointer;
 }
