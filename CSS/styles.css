@@ -48,22 +48,29 @@ body {
     background-size: cover;
 }
 
-.title {
-    color: #A297CF;
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
-
 .home nav {
     background: #000;
 }
 
-.home img {
-    position: relative;
-    width: 80%;
-    bottom: -1%;
-    right: 5%;
+main {
+    color: #A297CF;
+    width: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    left: 0px;
+}
+
+main img {
+    position: absolute;
+    height: 100vh;
+    right: 0px;
+    bottom: 0px;
 }
 
 
