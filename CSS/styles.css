@@ -91,12 +91,22 @@ body {
 
 .about main {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
 .about section {
     width: 60%;
     margin: auto auto;
+}
+
+@media all and (max-width: 980px) {
+    .about main {
+        flex-direction: column;
+    }
+    .about main img {
+        margin: 0 auto;
+    }
 }
 
 
